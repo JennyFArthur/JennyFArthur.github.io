@@ -1,20 +1,25 @@
-title: Jenny F. Arthur
+title: Jennifer F. Arthur
 description: Glaciologist and Remote Sensing Scientist
-baseurl: ""       # leave empty for GitHub Pages
+baseurl: ""
 url: "https://jennyfarthur.github.io"
 
-# Remote theme
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
+theme: minimal-mistakes-jekyll
 
-# Navigation
+author:
+  name: Jennifer F. Arthur
+
+# Navigation menu
 nav:
-  - title: Home
-    url: /
   - title: Research
     url: /research/
   - title: Publications
     url: /publications/
+  - title: Outreach
+    url: /outreach/
   - title: CV
     url: /cv/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
