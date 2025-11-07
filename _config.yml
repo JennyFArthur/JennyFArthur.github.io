@@ -1,3 +1,7 @@
 title: Jenny F. Arthur
-description: My research and academic projects
-theme: minima
+description: Researcher in Glaciology and Earth Observation
+baseurl: "" # leave empty for GitHub Pages
+url: "https://jennyfarthur.github.io"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
