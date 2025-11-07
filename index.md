@@ -13,4 +13,4 @@ Researcher in glaciology and Earth Observation
 
 ---
 
-[GitHub](https://github.com/jennyfarthur) · [Email](mailto:jennyflo94@gmail.com)
+[Research](/research) · [Projects](/projects) · [GitHub](https://github.com/jennyfarthur) · [Email](mailto:jennyflo94@gmail.com)
