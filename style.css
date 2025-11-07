@@ -1,49 +1,101 @@
-body {
+/* Reset & base */
+body, html {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: #f9f9f9;
   color: #111;
-  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Top navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.nav-left {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-right a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+.nav-right a:hover {
+  color: #0070f3;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-main {
-  max-width: 600px;
-  padding: 2rem;
+.banner img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+.banner-text {
+  position: absolute;
+  color: white;
+  text-align: center;
 }
 
-h2 {
+.banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Subtitle & social */
+.subtitle {
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.subtitle p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.8rem;
+  color: #111;
   font-size: 1.5rem;
-  margin-top: 2rem;
-}
-
-ul {
-  padding-left: 1rem;
-}
-
-hr {
-  margin: 2rem 0;
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
-footer {
-  margin-top: 2rem;
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: #0070f3;
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.social-icons a:hover {
+  color: #0070f3;
 }
+
+/* Sections */
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  display: inline-block;
+}
+
