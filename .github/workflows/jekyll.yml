@@ -10,29 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout your repo
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # 1️⃣ Checkout repo
+      - uses: actions/checkout@v3
 
-      # 2️⃣ Set up Ruby
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      # 2️⃣ Setup Ruby
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
 
-      # 3️⃣ Install dependencies  ← This is your snippet
-      - name: Install dependencies
-        run: |
+      # 3️⃣ Install dependencies from Gemfile
+      - run: |
           gem install bundler
           bundle install
 
-      # 4️⃣ Build site  ← This is your snippet
-      - name: Build site
-        run: bundle exec jekyll build
+      # 4️⃣ Build site using Bundler
+      - run: bundle exec jekyll build
 
       # 5️⃣ Deploy
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
