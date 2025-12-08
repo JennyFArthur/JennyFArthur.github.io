@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 title: "Jennifer F. Arthur"
@@ -20,10 +19,10 @@ excerpt: "Glaciologist and Remote Sensing Scientist — Tromsø, Norway"
 
 <div style="margin-top:1rem;">
 <!-- replace '#' with real links when ready -->
-<a href="#" style="margin:0 0.6rem;"><img src="/assets/icons/bluesky.svg" alt="Bluesky" width="36"></a>
+<a href="https://bsky.app/profile/antarcticjenny.bsky.social" style="margin:0 0.6rem;"><img src="/assets/icons/bluesky.svg" alt="Bluesky" width="36"></a>
 <a href="https://github.com/jennyfarthur" style="margin:0 0.6rem;"><img src="/assets/icons/github.svg" alt="GitHub" width="36"></a>
-<a href="#" style="margin:0 0.6rem;"><img src="/assets/icons/orcid.svg" alt="ORCID" width="36"></a>
-<a href="mailto:you@example.com" style="margin:0 0.6rem;"><img src="/assets/icons/email.svg" alt="Email" width="36"></a>
+<a href="https://orcid.org/0000-0001-8753-7211" style="margin:0 0.6rem;"><img src="/assets/icons/orcid.svg" alt="ORCID" width="36"></a>
+<a href="mailto:jennyflo94@gmail.com" style="margin:0 0.6rem;"><img src="/assets/icons/email.svg" alt="Email" width="36"></a>
 </div>
 </section>
 
